@@ -212,3 +212,13 @@ nav {
     gap: 5px;
 }
 
+
+
+/* FOOTER */
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
