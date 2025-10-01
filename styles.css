@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+ul {
+    list-style-type: none;
+}
+button {
+    border: none;
+    padding: 7px 22px;
+    font-weight: 900;
+    border-radius: 6px;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* BACKGROUND COLORS */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+.info-section, .signup-section {
+    background-color: #fff;
+}
+.quote-section {
+    background-color: #e5e7eb;
+}
+body {
+    background-color: #1f2937;
+}
+.singup-section-wrapper {
+    background-color: #3882f6;
+}
+.signup-button {
+    background-color: #3882f6;
+}
+.signup-section-button {
+    background-color: #3882f6;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* FONTS */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+.logo, .hero h1 {
+    color: #f9faf8;
+    font-weight: 900;
+}
+.logo {
+    font-size: 24px;
+}
+.hero h1 {
+    font-size: 48px;
+}
+.hero p, .nav-link-bar a, footer {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.nav-link-bar a {
+    text-decoration: none;
+}
+.info-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.square-subtext {
+    font-size: 18px;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.signup-section-button,
+ .singup-section-wrapper,
+  .signup-button {
+    color: #fff;
+}
+
+/* border */
+.signup-section-button {
+    border: 1px solid white;
+}
+
+
+/* paddings */
+nav, main, footer {
+    padding-inline: 380px;
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-link-bar {
+    display: flex;
+    gap: 25px;
+}
+
+
+/* LANDING */
+.landing-section {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    gap: 50px;
+}
+
+.hero {
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.hero-image {
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 152, 152);
+    color: #fff;
+}
