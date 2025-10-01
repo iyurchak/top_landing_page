@@ -172,3 +172,21 @@ nav {
 .square-subtext {
     text-align: center;
 }
+
+
+/* QUOTE SECTION */
+.quote-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quote {
+    font-style: italic;
+}
+.author {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 24px;
+}
